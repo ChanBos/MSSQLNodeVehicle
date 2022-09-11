@@ -1,0 +1,30 @@
+{
+  "name": "azura_vehicle_test",
+  "version": "1.0.0",
+  "description": "Azura Media Ltd Vehicle Test App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.19.1"
+  },
+  "author": "Chanelle Bösiger",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mssql": "^9.0.1",
+    "tedious": "^15.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

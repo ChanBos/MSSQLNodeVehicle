@@ -1,0 +1,33 @@
+/* Added padding to the body. */
+body {
+    padding: 10px;
+}
+
+/* Setting the alignment of the button. */
+.btn-container {
+    margin: auto !important;
+    text-align: right;
+}
+
+.form-container {
+    border: 1px solid #343a40;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+h6 {
+    color: #ffffff;
+    background-color: #343a40;
+    border-color: #454d55;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 0 !important;
+}
+
+label {
+    font-weight: bold;
+}
